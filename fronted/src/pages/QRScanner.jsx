@@ -19,7 +19,7 @@ function QRScanner() {
       if (decodedText.startsWith("http")) {
         window.location.href = decodedText;
       } else {
-        window.location.href = `/Verify?batch=${decodedText}`;
+        window.location.href = `/verify?batch=${decodedText}`;
       }
     };
 
