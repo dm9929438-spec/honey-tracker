@@ -16,9 +16,8 @@ function VerifyHoney() {
       return;
     }
 
-    try {
-      const response = await fetch(
-        `http://https://honey-tracker-u4dp.onrender.com/api/batches/verify/${id}`
+     const response = await fetch(
+        `https://honey-tracker-u4dp.onrender.com/api/batches/verify/${id}`
       );
 
       const data = await response.json();
