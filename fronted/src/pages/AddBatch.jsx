@@ -144,7 +144,7 @@ function AddBatch() {
           <p>Batch ID: {savedBatch.batchId}</p>
 
           <QRCodeCanvas
-            value={`http://localhost:5173/verify?batch=${savedBatch.batchId}`}
+            value={`https://honey-tracker.onrender.com/verify?batch=${savedBatch.batchId}`}
             size={220}
           />
 
