@@ -25,7 +25,7 @@ function SellerEntry() {
 
     try {
       const response = await fetch(
-        `http://https://honey-tracker-u4dp.onrender.com/api/batches/history/${form.batchId}`,
+        `https://honey-tracker-u4dp.onrender.com/api/batches/history/${form.batchId}`,
         {
           method: "POST",
           headers: {

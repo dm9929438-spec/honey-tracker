@@ -15,6 +15,7 @@ function VerifyHoney() {
       setMessage("Please enter Batch ID");
       return;
     }
+    try {
 
      const response = await fetch(
         `https://honey-tracker-u4dp.onrender.com/api/batches/verify/${id}`

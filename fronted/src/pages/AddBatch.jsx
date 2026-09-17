@@ -31,7 +31,7 @@ function AddBatch() {
 
     try {
       const response = await fetch(
-        "http://https://honey-tracker-u4dp.onrender.com/api/batches/add",
+        "https://honey-tracker-u4dp.onrender.com/api/batches/add",
         {
           method: "POST",
           headers: {
