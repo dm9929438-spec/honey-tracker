@@ -23,7 +23,7 @@ function QRCodePage() {
       <div style={{ margin: "25px" }}>
         {batchId && (
         <QRCodeCanvas
-          value={`http://localhost:5173/verify?batch=${batchId}`}
+          value={`https://honey-tracker.onrender.com/verify?batch=${batchId}`}
           size={220}
         />
         )}
